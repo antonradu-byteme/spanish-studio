@@ -2,13 +2,13 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#174b3b"><title>Little by little · Spanish studio</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap');
 :root{font-family:'DM Sans',sans-serif;color:#183e33;background:#f7f6ee}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d38631;outline-offset:3px}button{border:0;border-radius:14px;padding:13px 19px;background:#e9eee7;color:#183e33;font-weight:600}button:hover{filter:brightness(.96)}button:disabled{opacity:.55;cursor:default}.primary{background:#174b3b;color:white}.ghost{background:transparent;border:1px solid #d3d9cd}.wrap{max-width:1160px;margin:auto;padding:28px 36px}header{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:700;font-size:20px}.brand span{display:inline-grid;place-items:center;background:#174b3b;color:#fff;width:38px;height:38px;border-radius:12px;margin-right:10px}.tiny{font-size:12px;letter-spacing:1.7px;text-transform:uppercase;color:#60746a}h1,h2,.phrase{font-family:'Playfair Display',Georgia,serif;font-weight:500}h1{font-size:clamp(42px,6vw,68px);line-height:1.08;max-width:680px;margin:16px 0}p{line-height:1.6;color:#647569}.hero{position:relative;padding:48px 0 30px}.hero p{max-width:580px}.orb{position:absolute;right:20px;top:30px;width:180px;height:180px;border-radius:50%;background:#e9e5cc;display:grid;place-items:center;font-size:75px;transform:rotate(-10deg)}.orb:after{content:'poco a poco';font:italic 18px Georgia;position:absolute;bottom:18px}.stats{display:flex;gap:24px;margin:26px 0}.stats strong{font-size:23px}.stats span{display:block;font-size:12px;color:#65756d}.tabs{display:flex;gap:7px;flex-wrap:wrap;border-bottom:1px solid #dce1d5;padding-bottom:14px}.tabs button.active{background:#174b3b;color:white}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:22px 0}select,input[type=search]{background:#fff;border:1px solid #d7dfd1;padding:12px;border-radius:12px;color:#183e33}.panel{background:#fffef8;border:1px solid #e1e5d8;border-radius:25px;padding:30px}.study{min-height:360px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px}.phrase{font-size:clamp(26px,4vw,43px);line-height:1.3;max-width:800px;margin:10px 0}.meaning{font-size:20px;margin:0;color:#425e51}.actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}.chip{font-size:12px;border-radius:30px;padding:7px 12px;background:#e8f0fd;color:#426aa1}.g1{background:#fae8e3;color:#ad5946}.g2{background:#faf0c8;color:#8c711c}.progress{height:6px;background:#e7eddf;border-radius:9px;margin:16px 0;overflow:hidden}.progress div{height:100%;background:#5c9471;transition:width .4s}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.word{background:#fffef8;border:1px solid #e1e5d8;border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:12px}.word h3{font:500 23px 'Playfair Display',Georgia;margin:0}.word p{margin:0;font-size:14px}.word button{align-self:flex-start;padding:8px 13px}.ro{font-size:13px;color:#7e8272;padding:12px;background:#f5f4eb;border-radius:12px}.hint{font-size:14px;color:#6c7a6c;max-width:720px}.options{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:min(760px,100%)}.options button{text-align:left;line-height:1.5;background:#f0f2e9;border:1px solid #e0e5d8}.options .correct{background:#dcefdc;border-color:#6eaa76}.options .wrong{background:#fbe2dc;border-color:#c4806a}.feedback{padding:15px;border-radius:14px;background:#eaf2e6;line-height:1.6;width:100%}.feedback.error{background:#fbece6}input.answer{width:min(700px,100%);border:2px solid #dce3d4;background:white;border-radius:14px;padding:17px;font-size:19px}.accents{display:flex;gap:6px;flex-wrap:wrap}.accents button{padding:8px 13px}.footer{font-size:12px;color:#748174;padding:24px 0;line-height:1.8}.empty{text-align:center;padding:40px}.session-label{display:flex;justify-content:space-between;font-size:13px;color:#6b7f71}.check{display:flex;gap:7px;align-items:center;font-size:14px}.celebrate{font-size:54px;animation:bob 2s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-8px)}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}@media(max-width:850px){.orb{display:none}.grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.wrap{padding:20px}.hero{padding:28px 0 16px}.grid{grid-template-columns:1fr}.panel{padding:20px}.options{grid-template-columns:1fr}.tabs button{padding:10px 12px;font-size:13px}header .tiny{display:none}.stats{gap:18px}.toolbar select{max-width:100%}}
 </style></head><body><div id="app"></div><script>window.words = [
-['es un orgullo',"it’s an honour / a source of pride",'este o onoare / o mândrie',0],
+['es un orgullo',"it's a pride / it's an honour",'este o onoare / o mândrie',0],
 ['estar orgulloso de','to be proud of','a fi mândru de',0],
-['vivir el momento','to live in the moment / seize the day','a trăi clipa',0],
-['mantener una relación estrecha con un territorio','to maintain a close relationship with a territory','a păstra o legătură strânsă cu un teritoriu',0],
+['vivir el momento','live in the moment, seize the day','a trăi clipa',0],
+['mantener una relación estrecha con un territorio','to maintain a very close relationship with a territory','a păstra o legătură strânsă cu un teritoriu',0],
 ['mantener elementos culturales','to maintain cultural elements','a păstra elemente culturale',0],
 ['estar conectado con el cosmos','to be connected with the cosmos','a fi conectat cu cosmosul',0],
-['ser portador de conocimiento','to be a bearer of knowledge','a fi purtător de cunoaștere',0],
+['ser portador de conocimiento','to be a bearer (m) of knowledge','a fi purtător de cunoaștere',0],
 ['me vincula con el resto de un pueblo','it connects me with the rest of a people','mă leagă de restul unui popor',0],
 ['heredero de valores ancestrales','heir to ancestral values','moștenitor al valorilor strămoșești',0],
 ['los ancestros','the ancestors','strămoșii',0,'los antepasados'],
@@ -16,35 +16,35 @@
 ['la explotación económica','economic exploitation','exploatarea economică',1],
 ['la dominación cultural','cultural domination','dominația culturală',1],
 ['la discriminación social','social discrimination','discriminarea socială',1],
-['ser discriminado (por)','to be discriminated against (by)','a fi discriminat (de)',1],
+['ser discriminado (por)','to be discriminated (against)','a fi discriminat (de)',1],
 ['asimilar a los otros pueblos, a otro sistema','to assimilate to other peoples, to another system','a se asimila altor popoare, unui alt sistem',1],
 ['es necesario organizarnos','it is necessary to organize ourselves','este necesar să ne organizăm',1],
-['la supervivencia','survival','supraviețuirea',1],
+['la supervivencia','survival/overcoming','supraviețuirea',1],
 ['sin perder de vista','without losing sight of','fără a pierde din vedere',1],
-['que los niños no pierdan su idioma','that children do not lose their language','ca copiii să nu își piardă limba',1],
+['que los niños no pierdan su idioma','...that children do not lose their language','ca copiii să nu își piardă limba',1],
 ['la vida comunitaria','community life','viața comunitară',1],
 ['ser el ligamento con el pueblo','to be the link with the community','a fi legătura cu comunitatea',1],
 ['el ligamento','the link','legătura',1,'la conexión'],
 ['valorar la historia','to value history','a prețui istoria',1],
 ['los conquistadores','Spanish conquerors','cuceritorii spanioli',1],
 ['el siglo','century','secolul',1],
-['vulnerable a','vulnerable to / susceptible to','vulnerabil la',1],
+['vulnerable a','vulnerable to, susceptible to','vulnerabil la',1],
 ['los esclavos','slaves','sclavii',1],
 ['trajeron enfermedades','they brought diseases','au adus boli',1],
-['piedras preciosas','precious stones / gems','pietre prețioase',1],
+['piedras preciosas','precious stones, gems','pietre prețioase',1],
 ['la plata','silver','argintul',1],
 ['el oro','gold','aurul',1],
 ['la trayectoria','career / development / path','carieră / evoluție / parcurs',2,'la carrera, la evolución'],
 ['docente','teacher','profesor',2,'profesor'],
 ['acceder a algo','to agree to something','a accepta ceva',2,'consentir una acción'],
 ['lleva viviendo','has been living','locuiește de…',2,'vive desde hace'],
-['echar en falta','to miss something or someone','a simți lipsa',2,'echar de menos'],
+['echar en falta','to miss sth','a simți lipsa',2,'echar de menos'],
 ['ciudad natal','hometown / birthplace','oraș natal',2,'ciudad donde naciste'],
 ['tomar en cuenta','to take into account / consider','a lua în considerare',2,'considerar'],
-['me cuesta','it is difficult for me','îmi este greu',2,'es difícil para mí'],
+['me cuesta','it is difficult for me','îmi este greu',2,'es díficil para mí'],
 ['encuestas recientes','recent surveys','sondaje recente',2,'cuestionarios de hace poco'],
 ['la negrita','bold type / bold text','text îngroșat',2,'las letras o palabras escritas de forma más gruesa'],
-['la revista','magazine','revistă',2,'publicación periódica con artículos y, a veces, fotografías']
+['la revista','magazine','revistă',2,'Publicación periódica por cuadernos, con artículos y a veces fotografías sobre varias materias o sobre']
 ].map((w,id)=>({id,es:w[0],en:w[1],ro:w[2],group:w[3],syn:w[4]||''}));
 </script><script>const groups=['Identity & belonging','History & community','Everyday language'];
 let saved={};try{saved=JSON.parse(localStorage.getItem('spanish-studio-v1')||'{}')}catch{}
@@ -56,9 +56,9 @@ const pool=()=>words.filter(w=>(group==='all'||w.group===Number(group))&&(!revie
 function persist(){try{localStorage.setItem('spanish-studio-v1',JSON.stringify({marks,attempts}))}catch{audioMessage='Progress cannot be saved in this browser.'}}
 function start(){deck=mix(pool());index=0;reveal=false;feedback=null;score=0;round=0;finished=false;prepare();render()}
 function prepare(){const w=deck[index];choices=w?mix([w,...mix(words.filter(x=>x.id!==w.id)).slice(0,3)]):[]}
-function note(w){let text='';if(w.id===17)text='Survival is the usual meaning. “Overcoming” is normally superación.';if(w.id===34)text='Here: agree to something. In other contexts, acceder a can also mean access something.';if(w.id===21||w.id===22)text='Your class list uses ligamento for “link”. In everyday Spanish, vínculo or conexión is more usual; ligamento usually means a ligament.';if(w.id===42)text='The definition in your list was cut off; this is a short complete definition.';return text?`<div class="hint">${text}</div>`:''}
+function note(w){return w.id===42?`<div class="hint">The supplied definition ends here. The missing ending has not been guessed.</div>`:""}
 function speak(text,slow=false){audioMessage='';if(!('speechSynthesis' in window)){audioMessage='Audio is unavailable in this browser. You can still read and practise.';render();return}const voices=speechSynthesis.getVoices(),v=voices.find(v=>v.lang==='es-ES')||voices.find(v=>v.lang.startsWith('es'));if(!v){audioMessage='No Spanish voice found yet. Enable a Spanish system voice or try another browser.';render();return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text.replace(/[()]/g,''));u.lang=v.lang;u.voice=v;u.rate=slow?.7:.9;u.onerror=()=>{audioMessage='Audio could not play. Please try again.';render()};speechSynthesis.speak(u)}
-function extras(w){return `${w.syn?`<p class="hint" lang="es">Also in Spanish: ${escape(w.syn)}</p>`:''}${romanian?`<div class="ro" lang="ro">Good to know · ${escape(w.ro)}</div>`:''}${note(w)}`}
+function extras(w){return `${w.syn?`<p class="hint" lang="es">Teacher Spanish wording: ${escape(w.syn)}</p>`:''}${romanian?`<div class="ro" lang="ro">Good to know · ${escape(w.ro)}</div>`:''}${note(w)}`}
 function render(){const w=deck[index],known=words.filter(w=>marks[w.id]).length;
 root.innerHTML=`<main class="wrap"><header><div class="brand"><span>ñ</span> Little by little</div><div class="tiny">YOUR SPANISH STUDIO</div></header><section class="hero"><div class="tiny">A LITTLE PRACTICE. A BIGGER WORLD.</div><h1>Make these words<br>your own.</h1><p>Explore identity, culture and community in Spanish.<br>Read it. Hear it. Say it. Remember it.</p><div class="orb" aria-hidden="true">🌱</div><div class="stats"><div><strong>${words.length}</strong><span>expressions to explore</span></div><div><strong>${known}</strong><span>marked familiar</span></div><div><strong>${attempts}</strong><span>answers practised</span></div></div></section><nav class="tabs" aria-label="Practice modes">${[['read','↗ Explore'],['cards','▣ Flashcards'],['listen','♫ Listen & repeat'],['quiz','✦ Meaning quiz'],['write','✎ Write in Spanish'],['dictation','♪ Listen & write']].map(([id,label])=>`<button data-mode="${id}" class="${mode===id?'active':''}" aria-pressed="${mode===id}">${label}</button>`).join('')}</nav><div class="toolbar"><select id="group" aria-label="Vocabulary collection"><option value="all">All three collections</option>${groups.map((g,i)=>`<option value="${i}" ${group===String(i)?'selected':''}>${['🟦','🟥','🟨'][i]} ${g}</option>`).join('')}</select><label class="check"><input id="review" type="checkbox" ${review?'checked':''}> Focus on unfamiliar</label><label class="check"><input id="ro" type="checkbox" ${romanian?'checked':''}> Romanian notes</label></div>${audioMessage?`<p role="status">${escape(audioMessage)}</p>`:''}${mode==='read'?explore():!w?'<div class="panel empty"><h2>All familiar in this collection!</h2><p>Turn off “Focus on unfamiliar” to practise everything again.</p></div>':finished?`<div class="panel study"><div class="celebrate" aria-hidden="true">🌟</div><h2>One little step forward.</h2><p>You completed ${round} questions. ${score} correct on the first try.</p><p>Come back to tricky expressions after a break.</p><button id="restart" class="primary">Practise again</button></div>`:session(w)}<footer class="footer">English ↔ Spanish practice · Romanian is optional reference only.<br>Progress stays in this browser. Audio uses your device’s Spanish voice; pronunciation is self-assessed.<br><button id="reset" class="ghost">Reset saved progress</button></footer></main>`;
 bind();}
